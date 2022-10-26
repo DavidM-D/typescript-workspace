@@ -4,7 +4,6 @@ To install this scoped to a project using direnv, create the following file `.en
 
 ```
 use flake github:DavidM-D/typescript-workspace
-
 ```
 and when prompted run:
 ```bash
@@ -19,7 +18,8 @@ nix develop github:DavidM-D/typescript-workspace
 to start a shell with a rust dev env in scope
 
 This includes
-- Cargo
-- Rust with a wasm and native toolchain
-- Rust Analyzer
-- Clippy
+- typescript
+- node
+- npm
+- eslint
+- ts-node

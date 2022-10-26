@@ -19,6 +19,7 @@
             with pkgs; with nodePackages; [
               typescript
               eslint
+              nodejs
               ts-node
               npm
             ];
