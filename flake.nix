@@ -18,6 +18,8 @@
           buildInputs =
             with pkgs; with nodePackages; [
               typescript
+              typescript-language-server
+
               eslint
               nodejs
               ts-node
