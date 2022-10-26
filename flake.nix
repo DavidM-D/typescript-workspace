@@ -16,9 +16,11 @@
 
           # Everything in this list is added to your path
           buildInputs =
-            with pkgs.nodePackages; [
+            with pkgs; with nodePackages; [
               typescript
               eslint
+              ts-node
+              npm
             ];
         };
       });

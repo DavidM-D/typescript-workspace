@@ -3,7 +3,7 @@ This is a simple development environment for rust with wasm and native targets
 To install this scoped to a project using direnv, create the following file `.envrc` at the root of your project
 
 ```
-use flake github:DavidM-D/rust-workspace
+use flake github:DavidM-D/typescript-workspace
 
 ```
 and when prompted run:
