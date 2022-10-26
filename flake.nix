@@ -22,6 +22,7 @@
               nodejs
               ts-node
               npm
+              yarn
             ];
         };
       });
